@@ -25,6 +25,8 @@ const mapStateToProps = ({ catalog, user }) => {
     };
 };
 
+
+
 const mapDispatchToProps = {
     closeDrawer,
     completePasswordReset,
@@ -33,6 +35,9 @@ const mapDispatchToProps = {
     getUserDetails,
     resetPassword
 };
+
+
+
 
 export default connect(
     mapStateToProps,
