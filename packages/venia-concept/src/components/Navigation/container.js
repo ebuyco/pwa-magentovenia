@@ -35,10 +35,6 @@ const mapDispatchToProps = {
     getUserDetails,
     resetPassword
 };
-
-
-
-
 export default connect(
     mapStateToProps,
     mapDispatchToProps
