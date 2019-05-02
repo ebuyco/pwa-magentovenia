@@ -16,3 +16,6 @@ yarn-error.log
 # Packages that build partially transpiled ES modules put them here
 packages/*/esm/*
 docker/certs
+.bin
+.circleci
+.github

@@ -39,6 +39,7 @@
   "dependencies": {
     "@babel/runtime": "~7.3.4",
     "@magento/peregrine": "~2.1.0",
+    "@magento/venia-concept": "^2.1.0",
     "apollo-boost": "~0.1.28",
     "apollo-cache-inmemory": "~1.4.3",
     "apollo-cache-persist": "~0.1.1",

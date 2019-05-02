@@ -13,7 +13,7 @@ In this topic, you will use Composer to link your project with the Magento backe
    ``` sh
    composer config repositories.pwadev \
    '{"type":"path","url":"path/to/orange-theme","options":{"symlinks":true}}'
-   ```
+   ```a
 1. Run the following command to add your theme to `composer.json` as a local linked dependency:
    
    ``` sh

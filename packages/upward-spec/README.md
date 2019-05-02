@@ -1031,7 +1031,9 @@ apiVersion:
     inline: 'v{{versionNumber}}'
 ```
 
-URLResolvers resolve to strings. The context value `adminRESTTokenRefresh` evaluates to:
+These new context values can be used as URL objects: `adminRESTTokenRefresh.pathname`  and `adminRESTApiBase.protocol` are valid context values evaluating, respectively, to `/api/rest/v1/adminToken` and `https:`.
+
+The values can also be used as strings: if used as the `target` of a ProxyResolver, the context value `adminRESTTokenRefresh` evaluates to:
 
 ```txt
 https://admin.host:8081/api/rest/v1/adminToken?refreshToken=a1b2c3&role=owner

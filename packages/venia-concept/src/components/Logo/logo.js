@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classify from 'src/classify';
-import logo from './logo.svg';
+import logo from './scheme.svg';
 
 class Logo extends Component {
     static propTypes = {

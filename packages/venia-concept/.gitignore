@@ -1,3 +1,25 @@
 build-stats.json
 lastCachedGraphQLSchema.json
 yarn-error.log
+
+node_modules
+npm-debug.log
+.DS_Store
+.vscode
+jsconfig.json
+coverage
+test-results
+dist
+storybook-dist
+.idea
+test-report.xml
+test-results.json
+lerna-debug.log
+.env
+yarn-error.log
+# Packages that build partially transpiled ES modules put them here
+packages/*/esm/*
+docker/certs
+.bin
+.circleci
+.github

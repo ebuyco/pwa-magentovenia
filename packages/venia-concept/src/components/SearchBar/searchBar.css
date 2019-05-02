@@ -19,12 +19,18 @@
 }
 
 .searchInner {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 24rem;
-    width: 100%;
+       /* position: relative; */
+        position: absolute;
+        box-sizing: border-box;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 24rem;
+        width: 100%;
+        /* left: 0; */
+        right: 180px;
+        top: 65px;
+
 }
 
 .SearchAutocompleteWrapper {
@@ -34,4 +40,13 @@
     top: 100%;
     left: 0;
     right: 0;
+}
+
+@media (max-width: 400px){
+    .searchInner {
+        right: 70px;
+        width: 26%;
+        top: 56px;
+    }
+
 }

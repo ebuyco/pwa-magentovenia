@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import classify from 'src/classify';
 import defaultClasses from './indicator.css';
 
-import logo from '../Logo/logo.svg';
+import logo from '../Logo/scheme.svg';
 
 class LoadingIndicator extends Component {
     render() {

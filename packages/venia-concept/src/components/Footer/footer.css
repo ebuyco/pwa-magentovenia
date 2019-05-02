@@ -1,15 +1,21 @@
 .root {
-    background-color: rgb(var(--venia-grey));
+    background-color: #F5F9FC;
     border-top: 1px solid rgb(var(--venia-border));
     color: black;
     margin-top: 1rem;
     padding: 0 1rem;
 }
 
+
 .tile {
     border-bottom: 1px solid rgb(var(--venia-border));
     padding: 1rem 2rem;
-}
+  }
+
+/* .tile:nth-child(4){
+    width: 100%;
+    grid-template-columns: 1fr auto 1fr;
+} */
 
 .tileTitle {
     font-size: 1.25rem;
@@ -28,4 +34,11 @@
     font-size: 0.75rem;
     padding: 1.5rem 2rem;
     text-align: center;
+    width: 100%;
+    width: 100%;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.form{
+    width: 40%;
 }
