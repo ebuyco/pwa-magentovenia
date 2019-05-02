@@ -1,16 +1,15 @@
 .root {
-    background-color: #F5F9FC;
+    background-color: #f5f9fc;
     border-top: 1px solid rgb(var(--venia-border));
     color: black;
     margin-top: 1rem;
     padding: 0 1rem;
 }
 
-
 .tile {
     border-bottom: 1px solid rgb(var(--venia-border));
     padding: 1rem 2rem;
-  }
+}
 
 /* .tile:nth-child(4){
     width: 100%;
@@ -39,6 +38,6 @@
     grid-template-columns: 1fr auto 1fr;
 }
 
-.form{
+.form {
     width: 40%;
 }

@@ -25,8 +25,6 @@ const mapStateToProps = ({ catalog, user }) => {
     };
 };
 
-
-
 const mapDispatchToProps = {
     closeDrawer,
     completePasswordReset,

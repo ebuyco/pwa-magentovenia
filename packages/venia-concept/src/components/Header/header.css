@@ -1,5 +1,5 @@
 .root {
-    background-color: #EB3808;
+    background-color: #eb3808;
     box-shadow: 0 1px rgb(var(--venia-border));
     display: grid;
     grid-auto-columns: 100%;
@@ -10,7 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
- }
+}
 
 .open {
     composes: root;

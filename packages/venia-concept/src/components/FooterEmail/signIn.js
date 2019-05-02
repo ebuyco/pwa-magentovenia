@@ -62,10 +62,9 @@ class SignIn extends Component {
                         </Button>
                     </div>
                     <div className={classes.signInError}>{errorMessage}</div>
-                   </Form>
+                </Form>
                 {/* <div className={classes.signInDivider} /> */}
-                <div className={classes.showCreateAccountButton}>
-               </div>
+                <div className={classes.showCreateAccountButton} />
             </div>
         );
     }
