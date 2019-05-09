@@ -50,6 +50,7 @@ function requestToKey(req) {
 export function match(req) {
     return inflight.get(requestToKey(req));
 }
+
 /**
  * Store a request for potential future multicast.
  * Adds a callback to delete the request when it has settled.
@@ -58,6 +59,7 @@ export function match(req) {
 export function store(req) {
     inflight.set(requestToKey(req), req);
 }
+
 /**
  * Remove a request from cache if it exists there.
  * @param {M2ApiRequest} req
