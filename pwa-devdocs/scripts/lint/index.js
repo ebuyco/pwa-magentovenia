@@ -2,10 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const linter = require('../markdown-linter').linter;
 const process = require('process');
-
 const config = {
     basePath: path.join(__dirname, '../../src')
 };
+
+
 
 // If a single file is specified, only run tests on that file
 const filepath = process.argv[2];
@@ -15,7 +16,6 @@ if (filepath) {
 } else {
     lintDirectory(config.basePath);
 }
-
 // Run tests on all markdown files found under the specified directory
 function lintDirectory(directoryPath) {
     fs.promises

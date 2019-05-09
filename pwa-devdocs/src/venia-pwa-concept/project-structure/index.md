@@ -1,17 +1,13 @@
 ---
 title: Venia project structure
 ---
-
 This topic is an overview of the [`venia-concept`][] project structure.
 It provides overview information about important directories and files to help you understand the different pieces of the project.
-
 The Venia PWA storefront isn't a traditional Magento Theme like the Blank and Luma themes and therefore differs from the traditional [Magento theme structure][].
 It's not part of a Magento code base but a separate instance that communicates with Magento through the [UPWARD][] middleware.
-
 ## Root directory files
 
 In addition to the NPM packages.json and Venia specific validation and testing files, the root directory contains the following important files:
-
 [`.env.dist`][]
 : A sample configuration file that defines important environment variables.
   Copy this file into a new `.env` file to use the project default values.
@@ -177,7 +173,7 @@ The `src/sw.js` file contains the service worker configuration.
 [`server.js`]: https://github.com/magento-research/pwa-studio/blob/master/packages/venia-concept/server.js
 [`validate-environment.js`]: https://github.com/magento-research/pwa-studio/blob/master/packages/venia-concept/validate-environment.js
 [`venia-concept`]: https://github.com/magento-research/pwa-studio/tree/master/packages/venia-concept
-[`validate-queries.js`]: https://github.com/magento-research/pwa-studio/blob/master/packages/venia-concept/validate-queries.js 
+[`validate-queries.js`]: https://github.com/magento-research/pwa-studio/blob/master/packages/venia-concept/validate-queries.js
 [`venia-upward.yml`]: https://github.com/magento-research/pwa-studio/blob/master/packages/venia-concept/venia-upward.yml
 [`templates`]: https://github.com/magento-research/pwa-studio/tree/master/packages/venia-concept/templates
 [`static`]: https://github.com/magento-research/pwa-studio/tree/master/packages/venia-concept/static
