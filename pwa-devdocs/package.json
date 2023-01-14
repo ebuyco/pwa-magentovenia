@@ -90,6 +90,6 @@
         "to-vfile": "^5.0.2",
         "vfile-reporter": "^5.1.1",
         "webpack": "^4.29.0",
-        "webpack-cli": "^3.2.1"
+        "webpack-cli": "^3.3.12"
     }
 }
